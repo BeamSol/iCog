@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className="bg-cover bg-center bg-[url('/images/footer-bg.png')] text-gray-800">
             <div className="container mx-auto py-8 px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-                {/* About Section */}
+              
                 <div>
                     <img src="/images/logo-web_sm_black.png" alt="iCog Logo" className="mb-4 w-32" />
                     <p className="text-sm">
@@ -30,7 +30,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Useful Links Section */}
+                 
                 <div>
                     <h3 className="font-bold text-lg mb-4">USEFUL LINKS</h3>
                     <ul className="space-y-2">
@@ -41,7 +41,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                {/* Contact Section */}
+               
                 <div>
                     <h3 className="font-bold text-lg mb-4">CONTACT US</h3>
                     <p>Namibia St, Lingo Tower, 12th Floor</p>
@@ -58,8 +58,7 @@ export default function Footer() {
                     </p>
                 </div>
             </div>
-
-            {/* Footer Bottom Section */}
+ 
             <div className="bg-gray-200 text-center py-8 text-sm">
                 <p>
                     © Copyright 2024 <span className="font-bold text-gray-800">iCog</span>. All Rights Reserved.
